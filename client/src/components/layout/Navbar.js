@@ -31,7 +31,7 @@ const Navbar = ({ auth: { isAuthenticated }, logout }) => {
   const guestLinks = (
     <ul>
       <li>
-        <Link to="/profiles">Developers</Link>
+        <Link to="/profiles">Profiles</Link>
       </li>
       <li>
         <Link to="/register">Register</Link>
@@ -43,12 +43,12 @@ const Navbar = ({ auth: { isAuthenticated }, logout }) => {
   );
 
   return (
-    <nav className="navbar bg-dark">
-      <h1>
+    <nav className="navbar ">
+      
         <Link to="/">
-          <i className="fas fa-code" /> Codebud
+        <img src="logo.PNG" style={{marginTop:'0rem',}} />
         </Link>
-      </h1>
+      
       <Fragment>{isAuthenticated ? authLinks : guestLinks}</Fragment>
     </nav>
   );
