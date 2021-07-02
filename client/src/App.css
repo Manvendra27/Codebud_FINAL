@@ -261,7 +261,7 @@ background: #EEA47FFF;
   width: 100%;
   padding: 0.4rem;
   font-size: 1.2rem;
-  border-radius: 15px;
+  border-radius: 20px;
   border: 1px solid #ccc;
 }
 
@@ -364,8 +364,11 @@ button {
   align-items: center;
   grid-gap: 2rem;
   padding: 1rem;
+  /* margin-bottom: 2rem; */
   line-height: 1.8;
   margin-bottom: 1rem;
+  border-radius: 20px;
+
 }
 
 /* Profile Page */
@@ -472,6 +475,7 @@ button {
   grid-template-columns: 1fr 4fr;
   grid-gap: 2rem;
   align-items: center;
+  border-radius: 20px;
 }
 
 .post > div:first-child {
