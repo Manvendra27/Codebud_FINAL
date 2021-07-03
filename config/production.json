@@ -1,5 +1,0 @@
-{
-    "mongoURI": "mongodb+srv://manu:timepass@cluster0.qceo5.mongodb.net/Codebud?retryWrites=true&w=majority",
-    "jwtSecret": "secret",
-    "githubToken": "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"
-  }
